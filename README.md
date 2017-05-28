@@ -7,6 +7,9 @@ Before running ensure you have the PyMongo module installed:
 
 `pip install pymongo`
 
+This script also has a dependency on the GDAL/OGR library, which can be obtained from here:
+https://pypi.python.org/pypi/GDAL
+
 Example usage:
 
 `python shp-mongo-import.py -f shapes.shp -d geospatial -c shapes`
